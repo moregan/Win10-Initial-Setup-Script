@@ -35,18 +35,18 @@ DisableWAPPush                  # EnableWAPPush
 
 ### UWP Privacy Tweaks ###
 # DisableUWPBackgroundApps      # EnableUWPBackgroundApps
-# DisableUWPVoiceActivation     # EnableUWPVoiceActivation
+  DisableUWPVoiceActivation     # EnableUWPVoiceActivation
 # DisableUWPNotifications       # EnableUWPNotifications
-# DisableUWPAccountInfo         # EnableUWPAccountInfo
-# DisableUWPContacts            # EnableUWPContacts
-# DisableUWPCalendar            # EnableUWPCalendar
+  DisableUWPAccountInfo         # EnableUWPAccountInfo
+  DisableUWPContacts            # EnableUWPContacts
+  DisableUWPCalendar            # EnableUWPCalendar
 # DisableUWPPhoneCalls          # EnableUWPPhoneCalls
 # DisableUWPCallHistory         # EnableUWPCallHistory
-# DisableUWPEmail               # EnableUWPEmail
-# DisableUWPTasks               # EnableUWPTasks
+  DisableUWPEmail               # EnableUWPEmail
+  DisableUWPTasks               # EnableUWPTasks
 # DisableUWPMessaging           # EnableUWPMessaging
 # DisableUWPRadios              # EnableUWPRadios
-# DisableUWPOtherDevices        # EnableUWPOtherDevices
+  DisableUWPOtherDevices        # EnableUWPOtherDevices
 # DisableUWPDiagInfo            # EnableUWPDiagInfo
 # DisableUWPFileSystem          # EnableUWPFileSystem
 # DisableUWPSwapFile            # EnableUWPSwapFile
@@ -131,7 +131,7 @@ DisableAccessibilityKeys        # EnableAccessibilityKeys
 ShowTaskManagerDetails          # HideTaskManagerDetails
 ShowFileOperationsDetails       # HideFileOperationsDetails
 # EnableFileDeleteConfirm       # DisableFileDeleteConfirm
-HideTaskbarSearch               # ShowTaskbarSearchIcon         # ShowTaskbarSearchBox
+# HideTaskbarSearch             # ShowTaskbarSearchIcon         ShowTaskbarSearchBox
 # HideTaskView                  ShowTaskView
 ShowSmallTaskbarIcons           # ShowLargeTaskbarIcons
 # SetTaskbarCombineWhenFull     SetTaskbarCombineNever        # SetTaskbarCombineAlways
